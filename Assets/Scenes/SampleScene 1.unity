@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.492881, g: 0.4928671, b: 0.4929461, a: 1}
+  m_IndirectSpecularColor: {r: 0.4927829, g: 0.49276894, b: 0.49286395, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -645,9 +645,9 @@ RectTransform:
   m_Father: {fileID: 2021697509}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 29, y: 180.84}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 29, y: -19.160004}
   m_SizeDelta: {x: 187.1776, y: 75.7211}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &602387476
@@ -2463,6 +2463,7 @@ MonoBehaviour:
   rb: {fileID: 1157036112}
   uiController: {fileID: 343411937}
   animator: {fileID: 1314229134}
+  admob: {fileID: 0}
 --- !u!114 &1157036115
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4593,7 +4594,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
