@@ -24,6 +24,7 @@ public class ShopController : MonoBehaviour
     public AudioClip buyEffect, pickEffect;
 
     void Start(){
+        PlayerPrefs.SetInt("coins", 1200);
         coinsLabel.text = PlayerPrefs.GetInt("coins", 0).ToString();
         for(int i=0; i<priceLabels.Length; i++){
             priceLabels[i].text = prices[i].ToString();
